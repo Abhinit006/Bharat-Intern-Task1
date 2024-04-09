@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abhinit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("D:\abhinit1\portfolio\abstract-colorful-sales-background-concept_250207-246.avif");
+            background-size: cover;
+            background-position: center;
+            color:wheat;
+        }
+
+        header {
+            background-color: #333;
+            color: #0707b3;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #000000, #333333); 
+        }
+ 
+        header h1 {
+            margin: 0;
+        }
+ 
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+ 
+        nav ul li {
+            margin-right: 20px;
+        }
+ 
+        nav ul li a {
+            text-decoration: none;
+            color: #5339d9;
+        }
+ 
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+ 
+      
+        section {
+            padding: 10px 20px;
+        }
+ 
+
+        footer {
+            background-color: #333;
+            color:#362bdd;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        .portfolio_image{
+            float:right;
+            clip-path: ellipse();
+           
+        }
+        .position{
+            position: absolute;
+            width: 70%;
+            left: 10%;
+            top: 20%;
+            
+        }
+        .about{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="main">ABHINIT</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about">
+        <div > <br><br>
+            <h1 class="abhi">I AM ABHINIT</h1>
+            <div class="pre">Student in Presidency University pursuing B-Tech in Computer Engineering"<p class="interest">INTERESTS</p>- Web Development<br>-C++<br>-python
+<p class="achivement">ACHIVEMENTS</p>-won GOLD medal in 800mt Atheletic-2019<br>-won SILVER medal in Under-19 Cricket-2019<br>-Represented our School as SPORT CAPTAIN-2020
+            </div>
+        </div>
+    </div>
+       <div class="position">
+            <img class="portfolio_image" src="portfolio.jpeg" alt="" width="400" height="300">
+</div>
+            <div>
+        <P class="project">PROJECTS</P>
+        <div class="pre2">
+            -Integrated Project Using Aurdino<br>
+            -Integrated Project Using Raspberry Pi 
+        </div>
+    </div>
+ 
+    <div>
+        <p class="contact">CONTACT</p>
+        <p class="mail"><a href="mailto:premabhinit06@gmail.com">premabhinit06@gmail.com</a></p>
+    </div>
+ 
+    <footer>
+        <p class="copy">&copy; 2024 Abhinit. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
